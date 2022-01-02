@@ -1,7 +1,7 @@
 name: Actions workflows
 on: [push]
 jobs:
-  run-github-actions:
+  run-github-actions
   runs-on: ubuntu-latest
   steps:
     - name: Simple JS Action
