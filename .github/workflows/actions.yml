@@ -1,8 +1,9 @@
 name: Actions workflows
 on: 
   push:
-  schedule:
-    - cron: "5 * * * *"
+    branches:
+      - master
+      - 'feature/*'
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
